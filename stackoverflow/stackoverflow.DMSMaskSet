@@ -1699,7 +1699,7 @@
         <TargetTableName Value="Users" />
         <TargetColumnName Value="DisplayName" />
         <ReplacementClause Value="'User_' + RIGHT('0000000000' + CAST(ID AS VARCHAR),10)" />
-        <UseFastSinglePass Value="False" />
+        <UseFastSinglePass Value="True" />
         <WhereClauseAndSamplingContainer>
           <WhereClause Value="WHERE ID &lt;&gt; -1" />
           <WhereClauseMode Value="Custom_WhereClause" />
@@ -1715,16 +1715,7 @@
           <RangeLow Value="" />
           <RangeHigh Value="" />
         </RangeOptionsContainer>
-        <DMSPickedParamAndDataSetCollection>
-          <DMSPickedParamAndDataSet>
-            <N2KSQLServerEntity_PickedParam>
-              <N2KSQLServerEntity />
-              <ParamNumber Value="1" />
-              <ParamName Value="DMSPARAM1" />
-            </N2KSQLServerEntity_PickedParam>
-            <DataSetBase />
-          </DMSPickedParamAndDataSet>
-        </DMSPickedParamAndDataSetCollection>
+        <DMSPickedParamAndDataSetCollection />
       </RuleRowInternal>
     </DMSRuleBindingList>
   </DMSSetContainer>

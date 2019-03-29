@@ -11,3 +11,5 @@ $imageOperation = New-SqlCloneImage -Name $imageName `
   -Destination $imageDestination -Modifications $myMaskingModification 
 
 $imageOperation | Wait-SqlCloneOperation
+
+pause
