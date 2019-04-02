@@ -7,7 +7,7 @@ $myMaskingModification = New-SqlCloneMask -Path 'C:\Code\demos-redgate-sql-provi
 
 $imageOperation = New-SqlCloneImage -Name $imageName `
   -SqlServerInstance $sqlServerInstance `
-  -BackupFileName @('G:\backups\AdventureWorksDW2017.bak') `
+  -BackupFileName @('\\vmware-host\Shared Folders\Backups\AdventureWorksDW2017.bak') `
   -Destination $imageDestination `
   -Modifications $myMaskingModification 
 
