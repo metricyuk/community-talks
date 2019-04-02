@@ -63,7 +63,7 @@
             <ConnectionTimeout Value="5" />
             <DatabaseName Value="StackOverflow" />
             <SchemaName Value="dbo" />
-            <DBVersion Value="SSERVERVERSION2014" />
+            <DBVersion Value="SSERVERVERSION2016" />
             <OnlyTablesWithRowsWereFetched Value="False" />
             <SchemaTables>
               <DMSSchemaEntity_Table NS="DMS_Common" AS="DMSO">

@@ -2,7 +2,7 @@
 <!--Data Masker DMSMasking Set-->
 <DMSSetContainer_MaskingSet>
   <DMSVersion Value="6.2.0.964" />
-  <MaskingSetId>p2M55WOxs0KDzntAF49mhRsn3gUF30xOuP/wITBlwDk=</MaskingSetId>
+  <MaskingSetId>du0V1jPdIEWKnBtyLu9X77jwueWho+xPrMtPBbXVLSE=</MaskingSetId>
   <MaskingSetOptions>
     <maskingSetNotesTitle Value="Comments and Notes" />
     <maskingSetNotesComments Value="Comments and notes are displayed here.&#xD;&#xA;&#xD;&#xA;Use the Edit button on the Misc. Setup tab to change this information or to prevent it from being shown." />
@@ -61,9 +61,9 @@
             <RememberPassword Value="False" />
             <WantCloudConnection Value="False" />
             <ConnectionTimeout Value="5" />
-            <DatabaseName Value="StackOverflow2013" />
+            <DatabaseName Value="StackOverflow2010" />
             <SchemaName Value="dbo" />
-            <DBVersion Value="SSERVERVERSION2014" />
+            <DBVersion Value="SSERVERVERSION2016" />
             <OnlyTablesWithRowsWereFetched Value="False" />
             <SchemaTables>
               <DMSSchemaEntity_Table NS="DMS_Common" AS="DMSO">
@@ -1699,7 +1699,7 @@
         <TargetTableName Value="Users" />
         <TargetColumnName Value="DisplayName" />
         <ReplacementClause Value="'User_' + RIGHT('0000000000' + CAST(ID AS VARCHAR),10)" />
-        <UseFastSinglePass Value="False" />
+        <UseFastSinglePass Value="True" />
         <WhereClauseAndSamplingContainer>
           <WhereClause Value="WHERE ID &lt;&gt; -1" />
           <WhereClauseMode Value="Custom_WhereClause" />
@@ -1715,16 +1715,7 @@
           <RangeLow Value="" />
           <RangeHigh Value="" />
         </RangeOptionsContainer>
-        <DMSPickedParamAndDataSetCollection>
-          <DMSPickedParamAndDataSet>
-            <N2KSQLServerEntity_PickedParam>
-              <N2KSQLServerEntity />
-              <ParamNumber Value="1" />
-              <ParamName Value="DMSPARAM1" />
-            </N2KSQLServerEntity_PickedParam>
-            <DataSetBase />
-          </DMSPickedParamAndDataSet>
-        </DMSPickedParamAndDataSetCollection>
+        <DMSPickedParamAndDataSetCollection />
       </RuleRowInternal>
     </DMSRuleBindingList>
   </DMSSetContainer>
