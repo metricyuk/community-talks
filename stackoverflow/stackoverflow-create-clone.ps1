@@ -9,16 +9,16 @@ Connect-SqlClone -ServerUrl 'http://localhost:14145'
 $SqlServerInstance = Get-SqlCloneSqlServerInstance -MachineName DESKTOP-H4M4K2E -InstanceName "" `
 
 $image = Get-SqlCloneImage -Name $imageName
-$image | New-SqlClone -Name 'StackOverflow_clone_Mike' -Location $sqlServerInstance | Wait-SqlCloneOperation
-$image | New-SqlClone -Name 'StackOverflow_clone_John' -Location $sqlServerInstance | Wait-SqlCloneOperation
-$image | New-SqlClone -Name 'StackOverflow_clone_James' -Location $sqlServerInstance | Wait-SqlCloneOperation
-$image | New-SqlClone -Name 'StackOverflow_clone_Dom' -Location $sqlServerInstance | Wait-SqlCloneOperation
-$image | New-SqlClone -Name 'StackOverflow_clone_Niall' -Location $sqlServerInstance | Wait-SqlCloneOperation
-$image | New-SqlClone -Name 'StackOverflow_clone_Helen' -Location $sqlServerInstance | Wait-SqlCloneOperation
-$image | New-SqlClone -Name 'StackOverflow_clone_Luke' -Location $sqlServerInstance | Wait-SqlCloneOperation
-$image | New-SqlClone -Name 'StackOverflow_clone_Test001' -Location $sqlServerInstance | Wait-SqlCloneOperation
-$image | New-SqlClone -Name 'StackOverflow_clone_Test002' -Location $sqlServerInstance | Wait-SqlCloneOperation
-$image | New-SqlClone -Name 'StackOverflow_clone_Test003' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Dev1' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Dev2' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Dev3' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Dev4' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Dev5' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Dev6' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Dev7' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Test1' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Test2' -Location $sqlServerInstance | Wait-SqlCloneOperation
+$image | New-SqlClone -Name 'StackOverflow_clone_Test3' -Location $sqlServerInstance | Wait-SqlCloneOperation
 $image | New-SqlClone -Name 'StackOverflow_clone_PreProd' -Location $sqlServerInstance | Wait-SqlCloneOperation
 
 $gde = Get-Date -Format u
