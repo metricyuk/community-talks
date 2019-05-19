@@ -12,7 +12,6 @@ $imageName = "AdventureWorksDW2017"
 $image = Get-SqlCloneImage -Name $imageName
 $image | New-SqlClone -Name 'AdventureWorksDW2017_clone_Dev2' -Location $sqlServerInstance | Wait-SqlCloneOperation
 
-Pause
 
 
 

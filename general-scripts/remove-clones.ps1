@@ -3,6 +3,3 @@ $SqlServerInstance = Get-SqlCloneSqlServerInstance -MachineName DESKTOP-H4M4K2E 
 
 $ClonesToDelete = Get-SqlClone -Name '*_clone_*' -Location $SqlServerInstance
 $ClonesToDelete | Remove-SqlClone | Wait-SqlCloneOperation
-
-Pause
-
