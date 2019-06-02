@@ -1,6 +1,25 @@
-# Redgate SQL Provision
-## Preparation
+# Redgate SQL Provision Demo
+## Contents
+Four script folders all performing identical steps for that specific database;
+* adventureworks
+* stackoverflow
+* stackoverflow2010
+* stackoverflow2013
 
+One folder with general scripts used for demo;
+* general-scripts
+
+
+## Databases
+Databases used for the demos were;
+
+* [AdventureWorksDW2017](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-2017])
+* [StackOverflow](https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/)
+* [StackOverflow2010](https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/)
+* [StackOverflow2013](https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/)
+
+
+## Preparation
 * Create a service account to be used by SQL Clone
 * Add service account to administrators group
 * Grant service account sysadmin
@@ -9,3 +28,15 @@
 * Install agent
 * Install powershell cmdlets
 * Create share for image hosting
+
+
+## Edit scripts
+Some of the scripts are specific to my demo, so you will need to adjust to reflect your own setup.
+
+## Need more help?
+You can contact me [here](https://justbi.co.uk/)
+
+### Justin
+![https://justbi.co.uk](https://justbi.co.uk/wp-content/uploads/2019/06/dark_logo_transparent-e1559470158798.png "JUST:BI")
+
+
