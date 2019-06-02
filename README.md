@@ -31,12 +31,30 @@ Databases used for the demos were;
 
 
 ## Edit scripts
-Some of the scripts are specific to my demo, so you will need to adjust to reflect your own setup.
+Some of the scripts are specific to my demo, so you will need to adjust to reflect your own setup. Take adventureworks folder;
+
+* adventureworksDW2017-create-clones.ps1
+    * Change machinename (line 10)
+
+* adventureworksDW2017-create-image.ps1
+    * Change machinename (line 9)
+    * Change path (line 11)
+    * Change path (line 13)
+    * Change backupfilename (line 17)
+
+* adventureworksDW2017-delete-image.ps1
+    * Change machinename (line 2)
+
+* adventureworksDW2017-rebuild-clone-dev2.ps1
+    * Change machinename (line 2 & 8)
+
+* adventureworksDW2017.DMSMaskSet
+    * Change connection string
+
 
 ## Need more help?
 You can contact me [here](https://justbi.co.uk/)
 
-### Justin
 ![https://justbi.co.uk](https://justbi.co.uk/wp-content/uploads/2019/06/dark_logo_transparent-e1559470158798.png "JUST:BI")
 
 
