@@ -1,4 +1,4 @@
-## Ignore Mac files
+## Ignore Mac temporary files
 .DS_Store
 
 ## Ignore Visual Studio temporary files, build results, and
