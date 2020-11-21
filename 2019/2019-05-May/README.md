@@ -53,8 +53,6 @@ adventureworksDW2017.DMSMaskSet
 
 
 ## Need more help?
-You can contact me [here](https://justbi.co.uk/)
-
-![https://justbi.co.uk](https://justbi.co.uk/wp-content/uploads/2019/06/dark_logo_transparent-e1559470158798.png "JUST:BI")
+You can contact me [here](https://metricy.uk/)
 
 
