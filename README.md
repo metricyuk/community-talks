@@ -1,6 +1,6 @@
 # Community Talks
 
-Content from talks I've given
+Content from talks we've given!
 
 ## 2019
 
