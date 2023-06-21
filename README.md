@@ -20,9 +20,3 @@ Our user group is Data South Wales, focussed on the Microsoft Data platform. You
 ### 2021
 
 * Data Analysis Using Power BI for Beginners [[event]](https://www.meetup.com/data-south-wales/events/278567032/) [[content]](./data-south-wales/2021/2021-07-July)
-
-## Justin's talks
-
-### 2019
-
-* Compliant Database Development with Redgate SQL Provision [[event]](https://www.meetup.com/DataBristol/events/257686026/) [[content]](./justin/2019/2019-05-May)
