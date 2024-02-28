@@ -7,8 +7,7 @@
 
 ## User Group
 
-Our user group is Data South Wales, focussed on the Microsoft Data platform. You can join [here](https://www.meetup.com/data-south-wales/).
-
+Our user group is Data South Wales, focussed on the Microsoft Data platform. You can read more about that [here](./data-south-wales/README.md)
 ### 2020
 
 * Cloud Data Warehousing & Azure for Data Professionals [[event]](https://www.meetup.com/data-south-wales/events/268073529/)
